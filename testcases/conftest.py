@@ -13,3 +13,4 @@ def setup(request):
     request.cls.driver = driver
     yield
     driver.close()
+
